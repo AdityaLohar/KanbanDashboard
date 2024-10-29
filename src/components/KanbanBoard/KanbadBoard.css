@@ -144,3 +144,24 @@
 .group-count {
     color: #9f9f9f;
 }
+
+@media (min-width: 2000px) {
+    .topbar p {
+        font-size: 16px; 
+    }
+
+    .card-bottom {
+        font-size: 14px; 
+    }
+
+    .profile {
+        font-size: 12px !important; 
+    }
+    .topbar-placeholder {
+        font-size: 12px !important; 
+    }
+
+    .card {
+        font-size: 15px; 
+    }
+}
