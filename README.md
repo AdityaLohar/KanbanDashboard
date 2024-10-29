@@ -1,6 +1,6 @@
 ## Important
-While opening the vercel deployed url it is showing securtiy errors dont know why. 
 Try opening in **Incognito** or click on **visit unsafe site** which will be shown on the page. 
+While opening the vercel deployed url it is showing securtiy errors dont know why. 
 
 ## Tech Stack
 
