@@ -6,7 +6,7 @@ import FilterMenu from "../FilterMenu/FilterMenu";
 import "./DisplayButton.css";
 
 // Icons
-import displayIcon from "../../assets/display.svg";
+import displayIcon from "../../assets/Display.svg";
 import downIcon from "../../assets/down.svg";
 
 const DisplayButton = () => {
