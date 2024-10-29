@@ -34,8 +34,7 @@ const DisplayButton = () => {
       } else {
         setUsers([]);
       }
-
-      console.log("fetched from api"); // hatana hai
+      
     } catch (error) {
       console.error("Error fetching data:", error);
       setTickets([]);
@@ -54,8 +53,10 @@ const DisplayButton = () => {
     if (storedUsers) {
       setUsers(JSON.parse(storedUsers));
     }
+    else {
+      fetchData(); 
+    }
     
-    console.log("fetched from localstorage"); // isko hatana hai
   }, [setTickets, setUsers]);
 
   const handleOptionSelect = () => {
