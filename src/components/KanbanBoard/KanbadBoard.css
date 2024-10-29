@@ -1,0 +1,146 @@
+.entries-container {
+    display: grid; 
+    gap: 20px; 
+    padding: 5px 20px;
+    width: 100%;
+    overflow-x: hidden; 
+  
+    grid-template-columns: repeat(1, 1fr); 
+}
+
+@media (min-width: 620px) { 
+    .entries-container {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media (min-width: 768px) { 
+    .entries-container {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+}
+
+@media (min-width: 1024px) { 
+    .entries-container {
+        grid-template-columns: repeat(5, 1fr); 
+    }
+}
+
+.entry {
+    width: 100%; 
+}
+
+
+.card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 10px;
+    padding: 6px 12px;
+    font-size: 13px;
+    border: 1px solid #eee;
+    border-radius: 5px; 
+    background-color: #fff; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: default;
+}
+.topbar-left {
+    display: flex;
+    align-items: center;
+}
+.topbar-placeholder {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    color: white;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+    font-size: 10px !important;
+}
+.profile {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    color: white;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+    font-size: 10px !important;
+    cursor: pointer;
+}
+
+.card p {
+    margin: 0; 
+    line-height: 1.5; 
+}
+
+.card-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #878787;
+    justify-content: space-between;
+}
+
+.card-center {
+    display: flex;
+    align-items: start;
+    gap: 6px;
+}
+
+.card-center img {
+    padding-top: 2px;
+}
+
+.card-center p {
+    font-weight: 500;
+}
+
+.card-bottom {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #878787;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.card-bottom div {
+    display: flex;
+    padding: 2px;
+    border: 1px rgb(245, 245, 245) solid;
+    border-radius: 3px;
+}
+
+.tag-container img{
+    width: 9px;
+    height: 9px;
+}
+.tags {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 4px;
+}
+.topbar p {
+    font-size: 14px;
+    padding: 0 2px;
+    font-weight: 500;
+}
+.topbar div {
+    display: flex;
+    gap: 3px;
+}
+.group-count {
+    color: #9f9f9f;
+}
