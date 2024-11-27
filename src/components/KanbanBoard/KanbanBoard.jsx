@@ -27,6 +27,11 @@ const priorityLevels = {
   0: "No priority",
 };
 
+const users = [
+  "aditya",
+  "devanshi"
+]
+
 const groupIcons = {
   "In progress": progressIcon,
   Todo: todoIcon,
